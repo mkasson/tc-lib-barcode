@@ -44,6 +44,8 @@ use \Com\Tecnick\Barcode\Exception as BarcodeException;
  *    The length may be 0, 5, 9, or 11 digits. The allowable encoding ranges shall be no ZIP Code, 00000–99999,
  *    000000000–999999999, and 00000000000–99999999999.
  *
+ * NOTE: A Hyphen '-' is required before the zip/delivery point
+ * 
  * @since       2015-02-21
  * @category    Library
  * @package     Barcode
